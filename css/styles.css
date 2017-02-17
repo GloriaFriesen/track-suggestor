@@ -1,15 +1,34 @@
+body {
+  background-color: #C5C1C0;
+}
+
 .quizForm, .css, .cSharp, .java, .ruby {
   display: none;
 }
 
 .panel {
-  background-color: teal;
+  background-image: url('../img/background1.jpg');
+  background-size: cover;
   padding-bottom: 30px;
   padding-left: 30px;
 }
 
+.mainHeading {
+  color: #328CC1;
+  text-shadow: 4px 2px #1D2731;
+  font-size: 250%;
+  padding-bottom: 15px;
+}
+
+.btn {
+  color: #1D2731;
+  background-color: #D98310;
+  margin-right: 10px;
+}
+
 .well {
-  background-color: teal;
+  color: #D98310;
+  background-color: #1D2731;
   margin-top: 30px;
 }
 
@@ -23,28 +42,7 @@
   margin-top: 30px;
 }
 
-#cssPic {
-  height: 100px;
-  width: auto;
-  float: left;
-  padding-right: 15px;
-}
-
-#cSharpPic {
-  height: 100px;
-  width: auto;
-  float: left;
-  padding-right: 15px;
-}
-
-#javaPic {
-  height: 100px;
-  width: auto;
-  float: left;
-  padding-right: 15px;
-}
-
-#rubyPic {
+img {
   height: 100px;
   width: auto;
   float: left;

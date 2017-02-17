@@ -23,6 +23,7 @@ $(document).ready(function(){
       $(".ruby").show();
       $(".css, .cSharp, .java").hide();
     }
+      
     event.preventDefault();
   });
 });
