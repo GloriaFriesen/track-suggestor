@@ -1,3 +1,13 @@
 .quizForm, .quizOutput {
   display: none;
 }
+
+.questionLabel {
+  font-size: 15px;
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+#formSubmit {
+  margin-top: 30px;
+}

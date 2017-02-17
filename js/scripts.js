@@ -4,4 +4,7 @@ $(document).ready(function(){
     $(".quizForm").show();
     event.preventDefault();
   });
+  $("form").submit(function(){
+
+  });
 });

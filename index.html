@@ -16,27 +16,44 @@
         <a button type="button" class="btn btn-default" href="https://www.epicodus.com/">Learn more about Epicodus</a>
       </div>
       <form class="quizForm">
-              <select class="form-control" id="question1">
-                <option value="0"></option>
-                <option value="1">Pork rinds</option>
-                <option value="2">Pizza</option>
-                <option value="3">Salad</option>
-              </select>
-            <p>Pick your favorite vacation spot:</p>
-              <select class="form-control" id="question2">
-                <option value="0"></option>
-                <option value="1">New Jersey</option>
-                <option value="2">London</option>
-                <option value="3">The Bahamas</option>
-              </select>
-            <p>Pick your favorite car:</p>
-              <select class="form-control" id="question3">
-                <option value="0"></option>
-                <option value="1">Toyota Camry</option>
-                <option value="2">Chevrolet Corvette</option>
-                <option value="3">Lamboghini Marcialago</option>
-              </select>
-            <button type="submit" class="btn">Submit</button>
+        <div class="form-group">
+          <label class="questionLabel">Current occupation:</label>
+          <input class="form-control" type="text">
+        </div>
+
+        <p class="questionLabel">Where do you want to work:</p>
+        <select class="form-control" id="question1">
+          <option value="0"></option>
+          <option value="1">New York</option>
+          <option value="2">Seattle</option>
+          <option value="3">Portland</option>
+          <option value="4">San Francisco</option>
+        </select>
+
+        <div class="form-group">
+          <label class="questionLabel" for="color">What is your favorite color:</label>
+          <input id="color" class="form-control" type="color">
+        </div>
+
+        <p class="questionLabel">What do you want to build:</p>
+        <select class="form-control" id="question2">
+          <option value="0"></option>
+          <option value="1">Beautiful websites</option>
+          <option value="2">Business software</option>
+          <option value="3">Mobile apps</option>
+          <option value="4">Interactive web apps</option>
+        </select>
+
+        <p class="questionLabel">What kind of company do you want to work for:</p>
+        <select class="form-control" id="question3">
+          <option value="0"></option>
+          <option value="1">Digital create agency</option>
+          <option value="2">Microsoft</option>
+          <option value="3">Anywhere that will hire me</option>
+          <option value="4">Cool startup</option>
+        </select>
+
+        <button type="submit" class="btn" id="formSubmit">Submit</button>
       </form>
 
       <div class="quizOutput">
