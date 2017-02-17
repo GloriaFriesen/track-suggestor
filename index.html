@@ -8,10 +8,10 @@
     <title>Track Match</title>
   </head>
   <body>
-    <div class="container">
-      <div class="well">
+    <div class="container-fluid">
+      <div class="panel">
       <h1>Track Match</h1>
-        <h3>Trying to decide which programming language to learn?</h2>
+        <h3>Trying to decide which programming language to learn?</h3>
         <button class="btn btn-default" id="takeQuiz">Take the quiz</button>
         <a button type="button" class="btn btn-default" href="https://www.epicodus.com/">Learn more about Epicodus</a>
       </div>
@@ -58,16 +58,32 @@
 
       <div class="quizOutput">
         <div class="css">
-          <img src=img/css.jpeg alt="CSS Logo">
+          <div class="well">
+            <img id="cssPic" src=img/css.png alt="CSS Logo">
+            <h1>Looks like the CSS/Design track is the one for you.</h1>
+            <p>Get ready to be a key part of the front-end team. Use your creativity to build well thought out websites that are pleasing to the eye.</p>
+          </div>
         </div>
         <div class="cSharp">
-          <img src=img/cSharp.png alt="C Sharp Logo">
+          <div class="well">
+            <img id="cSharpPic" src=img/csharp.svg alt="C Sharp Logo">
+            <h1>Looks like the C#/.Net track is the one for you.</h1>
+            <p>You'll look forward to a career working for larger, enterprise companies, developing business software.</p>
+          </div>
         </div>
         <div class="java">
-          <img src=img/java.png alt="Java Logo">
+          <div class="well">
+            <img id="javaPic" src=img/java.png alt="Java Logo">
+            <h1>Looks like the Java/Android track is the one for you.</h1>
+            <p>You want the flexibility to create high-perforamce web applications for large companies or build slick mobile user interfaces at a startup.</p>
+          </div>
         </div>
         <div class="ruby">
-          <img src=img/ruby.png alt="Ruby Logo">
+          <div class="well">
+            <img id=rubyPic src=img/ruby.png alt="Ruby Logo">
+            <h1>Looks like the Ruby/Rails track is the one for you.</h1>
+            <p>You want to create dynamic and interactive web applications. You want to work for a startup, or maybe even start your own.</p>
+          </div>
         </div>
       </div>
 

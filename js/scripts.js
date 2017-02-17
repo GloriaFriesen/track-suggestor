@@ -1,8 +1,7 @@
 $(document).ready(function(){
-  event.preventDefault();
 
   $("#takeQuiz").click(function(){
-    $(".quizForm").show();
+    $(".quizForm").slideDown();
   });
 
   $(".quizForm").submit(function(){
@@ -12,7 +11,7 @@ $(document).ready(function(){
     var totalScore = answer1 + answer2 + answer3;
 
     if (totalScore <= 4) {
-      $(".css").show();
+      $(".css").slideDown();
       $(".cSharp, .java, .ruby").hide();
     } else if (totalScore > 4 && totalScore <= 7) {
       $(".cSharp").show();
@@ -24,6 +23,6 @@ $(document).ready(function(){
       $(".ruby").show();
       $(".css, .cSharp, .java").hide();
     }
+    event.preventDefault();
   });
-
 });

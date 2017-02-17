@@ -2,6 +2,17 @@
   display: none;
 }
 
+.panel {
+  background-color: teal;
+  padding-bottom: 30px;
+  padding-left: 30px;
+}
+
+.well {
+  background-color: teal;
+  margin-top: 30px;
+}
+
 .questionLabel {
   font-size: 15px;
   font-weight: bold;
@@ -10,4 +21,32 @@
 
 #formSubmit {
   margin-top: 30px;
+}
+
+#cssPic {
+  height: 100px;
+  width: auto;
+  float: left;
+  padding-right: 15px;
+}
+
+#cSharpPic {
+  height: 100px;
+  width: auto;
+  float: left;
+  padding-right: 15px;
+}
+
+#javaPic {
+  height: 100px;
+  width: auto;
+  float: left;
+  padding-right: 15px;
+}
+
+#rubyPic {
+  height: 100px;
+  width: auto;
+  float: left;
+  padding-right: 15px;
 }
