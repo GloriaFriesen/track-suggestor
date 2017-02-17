@@ -1,19 +1,17 @@
 $(document).ready(function(){
+  event.preventDefault();
 
   $("#takeQuiz").click(function(){
     $(".quizForm").show();
-    event.preventDefault();
   });
-  $("form").submit(function(){
+
+  $(".quizForm").submit(function(){
     var answer1 = parseInt($("#question1").val());
     var answer2 = parseInt($("#question2").val());
     var answer3 = parseInt($("#question3").val());
     var totalScore = answer1 + answer2 + answer3;
 
-    if (answer1 === 0 || answer2 === 0 || answer3 === 0) {
-      $("button").after("<p>Please complete the quiz</p>")
-
-    } else if (totalScore <= 4) {
+    if (totalScore <= 4) {
       $(".css").show();
       $(".cSharp, .java, .ruby").hide();
     } else if (totalScore > 4 && totalScore <= 7) {
@@ -27,4 +25,5 @@ $(document).ready(function(){
       $(".css, .cSharp, .java").hide();
     }
   });
+
 });
