@@ -18,15 +18,15 @@ $(document).ready(function(){
       $(".cSharp, .java, .ruby, .error").hide();
     } else if (totalScore > 4 && totalScore <= 7) {
       $(".cSharp").show();
-      $(".css, .java, .ruby").hide();
+      $(".css, .java, .ruby, .error").hide();
     } else if (totalScore > 7 && totalScore <= 10) {
       $(".java").show();
-      $(".css, .cSharp, .ruby").hide();
+      $(".css, .cSharp, .ruby, .error").hide();
     } else if (totalScore > 10 && totalScore <= 12){
       $(".ruby").show();
-      $(".css, .cSharp, .java").hide();
+      $(".css, .cSharp, .java, .error").hide();
     } else {
-      $("#formSubmit").after("<p class='error'>Looks like you're missing something. Please complete the quiz.</p>")
+      $("#formSubmit").before("<p class='incompleteForm'>Looks like you're missing something. Please complete the quiz.</p>")
       $(".css, .cSharp, .java, .ruby").hide();
     }
 

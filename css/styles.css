@@ -52,7 +52,7 @@ img {
   padding-right: 15px;
 }
 
-.error {
+.incompleteForm {
   color: #D98310;
   background-color: #1D2731;
   float: right;
