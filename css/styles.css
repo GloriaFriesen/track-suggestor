@@ -15,9 +15,12 @@ body {
 }
 
 .mainHeading {
+  text-align: right;
   color: #328CC1;
   text-shadow: 4px 2px #1D2731;
   padding-bottom: 15px;
+  padding-right: 50px;
+  padding-top: 10px;
 }
 
 .btn {

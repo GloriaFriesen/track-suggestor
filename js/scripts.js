@@ -14,7 +14,6 @@ $(document).ready(function(){
     $(".name").text(nameInput);
 
     if (totalScore <= 4) {
-      
       $(".css").slideDown();
       $(".cSharp, .java, .ruby").hide();
     } else if (totalScore > 4 && totalScore <= 7) {
