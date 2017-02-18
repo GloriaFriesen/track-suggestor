@@ -13,18 +13,21 @@ $(document).ready(function(){
 
     $(".name").text(nameInput);
 
-    if (totalScore <= 4) {
+    if (totalScore >2 && totalScore <= 4) {
       $(".css").slideDown();
-      $(".cSharp, .java, .ruby").hide();
+      $(".cSharp, .java, .ruby, .error").hide();
     } else if (totalScore > 4 && totalScore <= 7) {
       $(".cSharp").show();
       $(".css, .java, .ruby").hide();
     } else if (totalScore > 7 && totalScore <= 10) {
       $(".java").show();
       $(".css, .cSharp, .ruby").hide();
-    } else {
+    } else if (totalScore > 10 && totalScore <= 12){
       $(".ruby").show();
       $(".css, .cSharp, .java").hide();
+    } else {
+      $("#formSubmit").after("<p class='error'>Looks like you're missing something. Please complete the quiz.</p>")
+      $(".css, .cSharp, .java, .ruby").hide();
     }
 
     event.preventDefault();

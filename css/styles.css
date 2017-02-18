@@ -51,3 +51,12 @@ img {
   float: left;
   padding-right: 15px;
 }
+
+.error {
+  color: #D98310;
+  background-color: #1D2731;
+  float: right;
+  padding: 8px;
+  margin: 30px;
+  font-size: 16px;
+}
