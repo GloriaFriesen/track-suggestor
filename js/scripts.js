@@ -15,16 +15,16 @@ $(document).ready(function(){
 
     if (totalScore >2 && totalScore <= 4) {
       $(".css").slideDown();
-      $(".cSharp, .java, .ruby, .error").hide();
+      $(".cSharp, .java, .ruby, .incompleteForm").hide();
     } else if (totalScore > 4 && totalScore <= 7) {
       $(".cSharp").show();
-      $(".css, .java, .ruby, .error").hide();
+      $(".css, .java, .ruby, .incompleteForm").hide();
     } else if (totalScore > 7 && totalScore <= 10) {
       $(".java").show();
-      $(".css, .cSharp, .ruby, .error").hide();
+      $(".css, .cSharp, .ruby, .incompleteForm").hide();
     } else if (totalScore > 10 && totalScore <= 12){
       $(".ruby").show();
-      $(".css, .cSharp, .java, .error").hide();
+      $(".css, .cSharp, .java, .incompleteForm").hide();
     } else {
       $("#formSubmit").before("<p class='incompleteForm'>Looks like you're missing something. Please complete the quiz.</p>")
       $(".css, .cSharp, .java, .ruby").hide();
