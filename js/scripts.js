@@ -5,12 +5,16 @@ $(document).ready(function(){
   });
 
   $(".quizForm").submit(function(){
+    var nameInput = $("input#name").val();
     var answer1 = parseInt($("#question1").val());
     var answer2 = parseInt($("#question2").val());
     var answer3 = parseInt($("#question3").val());
     var totalScore = answer1 + answer2 + answer3;
 
+    $(".name").text(nameInput);
+
     if (totalScore <= 4) {
+      
       $(".css").slideDown();
       $(".cSharp, .java, .ruby").hide();
     } else if (totalScore > 4 && totalScore <= 7) {
@@ -23,7 +27,7 @@ $(document).ready(function(){
       $(".ruby").show();
       $(".css, .cSharp, .java").hide();
     }
-      
+
     event.preventDefault();
   });
 });
