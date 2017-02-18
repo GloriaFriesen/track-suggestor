@@ -10,7 +10,7 @@ _This website's main objective is to allow users to find the best programming la
 
 ## Setup/Installation Requirements
 
-* _In your web browser of choice, go to: <http://gloriafriesen.github.io/track-match>_
+* _In your web browser of choice, go to: <http://github.com/GloriaFriesen/track-match>_
 * _Clone repository_
 * In terminal
   * _Switch to track-match directory_
@@ -18,6 +18,10 @@ _This website's main objective is to allow users to find the best programming la
 * In browser
   * _Click Take the Quiz button to reveal the quiz_
   * _Select your answers and click Submit button to reveal your suggested Epicodus programming language track_
+
+###### OR
+* _Go to directly to my gh-page and complete the quiz: <http://gloriafriesen.github.io/track-match>_
+
 
 ## Known Bugs
 
