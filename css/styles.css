@@ -1,5 +1,6 @@
 body {
   background-color: #C5C1C0;
+  font-family: 'Nunito Sans', sans-serif;
 }
 
 .quizForm, .css, .cSharp, .java, .ruby {
@@ -16,7 +17,6 @@ body {
 .mainHeading {
   color: #328CC1;
   text-shadow: 4px 2px #1D2731;
-  font-size: 250%;
   padding-bottom: 15px;
 }
 
