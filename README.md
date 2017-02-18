@@ -20,7 +20,7 @@ _This website's main objective is to allow users to find the best programming la
   * _Select your answers and click Submit button to reveal your suggested Epicodus programming language track_
 
 ###### OR
-* _Go to directly to my gh-page and complete the quiz: <http://gloriafriesen.github.io/track-match>_
+* _Go directly to my gh-page and complete the quiz: <http://gloriafriesen.github.io/track-match>_
 
 
 ## Known Bugs
